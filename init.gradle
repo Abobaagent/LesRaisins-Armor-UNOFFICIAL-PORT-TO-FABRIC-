@@ -1,0 +1,15 @@
+allprojects { proj ->
+    // Force a newer Gson on both buildscript and project classpaths.
+    proj.buildscript {
+        configurations.classpath {
+            resolutionStrategy.force 'com.google.code.gson:gson:2.11.0'
+        }
+    }
+    proj.configurations.configureEach {
+        resolutionStrategy.force 'com.google.code.gson:gson:2.11.0'
+    }
+}
+
+gradle.settingsEvaluated {
+    println "INIT Java version: ${System.getProperty('java.version')} spec: ${System.getProperty('java.specification.version')}"
+}

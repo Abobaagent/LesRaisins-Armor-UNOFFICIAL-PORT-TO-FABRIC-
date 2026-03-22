@@ -1,0 +1,15 @@
+Java Launcher: C:\Users\Alexander\.jdks\ms-17.0.16\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.20.1-common-api\15.12.3.54\aa7a2f31bd7a097218f5d2faed206783f09cb8eb\jei-1.20.1-common-api-15.12.3.54.jar, --output, C:\Users\Alexander\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.20.1-common-api\15.12.3.54_mapped_parchment_2023.09.03-1.20.1\jei-1.20.1-common-api-15.12.3.54_mapped_parchment_2023.09.03-1.20.1.jar, --mcp, C:\Users\Alexander\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.20.1\2023.09.03\parchment-1.20.1-2023.09.03.zip, --strip-signatures'
+Classpath:
+ - C:\Users\Alexander\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.4.4\installertools-1.4.4-fatjar.jar
+Working directory: C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\build\_RenameSrg2Mcp_571367597
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.20.1-common-api\15.12.3.54\aa7a2f31bd7a097218f5d2faed206783f09cb8eb\jei-1.20.1-common-api-15.12.3.54.jar
+Output: C:\Users\Alexander\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.20.1-common-api\15.12.3.54_mapped_parchment_2023.09.03-1.20.1\jei-1.20.1-common-api-15.12.3.54_mapped_parchment_2023.09.03-1.20.1.jar
+MCP:    C:\Users\Alexander\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.20.1\2023.09.03\parchment-1.20.1-2023.09.03.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

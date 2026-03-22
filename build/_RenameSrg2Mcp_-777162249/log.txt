@@ -1,0 +1,15 @@
+Java Launcher: C:\Users\Alexander\.jdks\ms-17.0.16\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\curse.maven\epic-fight-mod-405076\7316952\55868661167f6675ac26c55a110c8f96e4608a1d\epic-fight-mod-405076-7316952.jar, --output, C:\Users\Alexander\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\epic-fight-mod-405076\7316952_mapped_parchment_2023.09.03-1.20.1\epic-fight-mod-405076-7316952_mapped_parchment_2023.09.03-1.20.1.jar, --mcp, C:\Users\Alexander\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.20.1\2023.09.03\parchment-1.20.1-2023.09.03.zip, --strip-signatures'
+Classpath:
+ - C:\Users\Alexander\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.4.4\installertools-1.4.4-fatjar.jar
+Working directory: C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\build\_RenameSrg2Mcp_-777162249
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\curse.maven\epic-fight-mod-405076\7316952\55868661167f6675ac26c55a110c8f96e4608a1d\epic-fight-mod-405076-7316952.jar
+Output: C:\Users\Alexander\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\epic-fight-mod-405076\7316952_mapped_parchment_2023.09.03-1.20.1\epic-fight-mod-405076-7316952_mapped_parchment_2023.09.03-1.20.1.jar
+MCP:    C:\Users\Alexander\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.20.1\2023.09.03\parchment-1.20.1-2023.09.03.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

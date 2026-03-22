@@ -1,0 +1,67 @@
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven-publish'
+
+    version = mod_version
+    group = mod_group_id
+
+    java {
+        toolchain.languageVersion = JavaLanguageVersion.of(17)
+    }
+
+    repositories {
+        mavenCentral()
+        maven { url = 'https://maven.fabricmc.net/' }
+        maven { url = 'https://maven.architectury.dev/' }
+        maven { url = 'https://maven.minecraftforge.net/' }
+        maven { url = 'https://maven.parchmentmc.org' }
+
+        maven { url = 'https://www.cursemaven.com' }
+        maven {
+            name = 'GeckoLib'
+            url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+            content {
+                includeGroupByRegex('software\\.bernie.*')
+                includeGroup('com.eliotlash.mclib')
+            }
+        }
+        maven {
+            name "KosmX's maven"
+            url 'https://maven.kosmx.dev/'
+        }
+        maven {
+            name = "Progwml6's maven"
+            url = 'https://dvs1.progwml6.com/files/maven/'
+        }
+        maven {
+            name = 'ModMaven'
+            url = 'https://modmaven.dev'
+        }
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+    }
+}
+
+tasks.register('bundle') {
+    group = 'build'
+    description = 'Builds Fabric and Forge jars and copies them to dist/.'
+
+    dependsOn(':fabric:build', ':forge:build')
+
+    doLast {
+        def distDir = file("$rootDir/dist")
+        distDir.mkdirs()
+
+        copy {
+            from("$rootDir/fabric/build/libs") {
+                include '*.jar'
+            }
+            from("$rootDir/forge/build/libs") {
+                include '*.jar'
+            }
+            into(distDir)
+        }
+    }
+}
