@@ -1,0 +1,9 @@
+plugins {
+    id 'java'
+}
+
+// Common is compiled via platform modules (fabric/forge) to avoid Loom setup here.
+// Disable direct compilation for the common module to prevent missing Minecraft deps during root builds.
+tasks.withType(JavaCompile).configureEach {
+    enabled = false
+}

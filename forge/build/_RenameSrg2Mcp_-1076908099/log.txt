@@ -1,0 +1,15 @@
+Java Launcher: C:\Program Files\Java\jdk-17\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\.gradle-user\caches\modules-2\files-2.1\dev.architectury\architectury-forge\9.2.14\f48e657815d2e540d63bd162238631ed3c5633d3\architectury-forge-9.2.14.jar, --output, C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\.gradle-user\caches\forge_gradle\deobf_dependencies\dev\architectury\architectury-forge\9.2.14_mapped_official_1.20.1\architectury-forge-9.2.14_mapped_official_1.20.1.jar, --mcp, C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\.gradle-user\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.20.1\mapping-1.20.1-mapping.zip, --strip-signatures'
+Classpath:
+ - C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\.gradle-user\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.2\installertools-1.3.2-fatjar.jar
+Working directory: C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build\_RenameSrg2Mcp_-1076908099
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\.gradle-user\caches\modules-2\files-2.1\dev.architectury\architectury-forge\9.2.14\f48e657815d2e540d63bd162238631ed3c5633d3\architectury-forge-9.2.14.jar
+Output: C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\.gradle-user\caches\forge_gradle\deobf_dependencies\dev\architectury\architectury-forge\9.2.14_mapped_official_1.20.1\architectury-forge-9.2.14_mapped_official_1.20.1.jar
+MCP:    C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\.gradle-user\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.20.1\mapping-1.20.1-mapping.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

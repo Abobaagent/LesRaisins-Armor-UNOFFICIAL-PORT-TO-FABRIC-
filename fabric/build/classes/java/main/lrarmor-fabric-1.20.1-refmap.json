@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "me/xjqsh/lesraisinsarmor/fabric/mixin/LivingEntityRendererAccessor": {
+      "model": "field_4737:Lnet/minecraft/class_583;"
+    },
+    "me/xjqsh/lesraisinsarmor/fabric/mixin/LivingEntityRendererMixin": {
+      "render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/class_922;method_4054(Lnet/minecraft/class_1309;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/xjqsh/lesraisinsarmor/fabric/mixin/LivingEntityRendererAccessor": {
+        "model": "field_4737:Lnet/minecraft/class_583;"
+      },
+      "me/xjqsh/lesraisinsarmor/fabric/mixin/LivingEntityRendererMixin": {
+        "render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/class_922;method_4054(Lnet/minecraft/class_1309;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      }
+    }
+  }
+}

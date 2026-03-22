@@ -1,0 +1,15 @@
+﻿{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.xjqsh.lesraisinsarmor.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LivingEntityRendererAccessor",
+    "LivingEntityRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

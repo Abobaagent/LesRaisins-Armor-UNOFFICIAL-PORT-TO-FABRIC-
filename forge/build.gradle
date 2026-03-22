@@ -1,0 +1,94 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath "net.minecraftforge.gradle:ForgeGradle:${forgegradle_version}"
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+
+base {
+    archivesName = "${mod_id}-forge-${minecraft_version}"
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
+    implementation("com.eliotlash.mclib:mclib:20")
+    def includeOptionalMods = project.findProperty('includeOptionalMods')?.toString()?.toBoolean() ?: false
+    if (includeOptionalMods) {
+        implementation fg.deobf('curse.maven:timeless-and-classics-zero-1028108:5529117-sources-5529578')
+
+        compileOnly fg.deobf('curse.maven:epic-fight-mod-405076:7316952')
+        compileOnly fg.deobf('curse.maven:easy-npc-559312:5672284')
+        compileOnly fg.deobf('curse.maven:parcool-482378:6652972')
+    }
+
+    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"))
+    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}"))
+    runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
+
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+}
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+
+    runs {
+        client {
+            workingDirectory project.file(findProperty('forgeRunDir') ?: 'run')
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${project.buildDir}/createSrgToMcp/output.srg"
+            jvmArgs "-Dmixin.env.remapRefMap=true", "-Dmixin.env.refMapRemappingFile=${project.buildDir}/createSrgToMcp/output.srg"
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'info'
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+        server {
+            workingDirectory project.file(findProperty('forgeRunDir') ?: 'run')
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${project.buildDir}/createSrgToMcp/output.srg"
+            jvmArgs "-Dmixin.env.remapRefMap=true", "-Dmixin.env.refMapRemappingFile=${project.buildDir}/createSrgToMcp/output.srg"
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'info'
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets {
+    main {
+        java.srcDir '../common/src/main/java'
+        resources.srcDir '../common/src/main/resources'
+        resources.srcDir '../common/src/generated/resources'
+    }
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+            minecraft_version: minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            forge_version: forge_version, forge_version_range: forge_version_range,
+            loader_version_range: loader_version_range,
+            mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
+            mod_authors: mod_authors, mod_description: mod_description,
+    ]
+
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/mods.toml']) {
+        expand replaceProperties + [project: project]
+    }
+}

@@ -1,0 +1,86 @@
+[22бер.2026 11:02:44.907] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Alexander\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[22бер.2026 11:02:44.914] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[22бер.2026 11:02:45.204] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[22бер.2026 11:02:45.362] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[22бер.2026 11:02:45.635] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[22бер.2026 11:02:45.821] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Iris(R) Xe Graphics GL version 4.6.0 - Build 32.0.101.7076, Intel
+[22бер.2026 11:02:45.838] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Alexander/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23129!/ Service=ModLauncher Env=CLIENT
+[22бер.2026 11:02:46.460] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.4\c05c04093d241dea1d0f54782d19cfe5db9d0aac\javafmllanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[22бер.2026 11:02:46.471] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.4\8a8bd6d44f3f0e6a1145b9066eac84fdcfbe7108\lowcodelanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[22бер.2026 11:02:46.480] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.4\a8876f0a1a04237fc48a4a73692ea08e0443d2ba\mclanguage-1.20.1-47.4.4.jar is missing mods.toml file
+[22бер.2026 11:02:46.491] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.4\55a693260a8a7b851c3531972ef997294c191b3e\fmlcore-1.20.1-47.4.4.jar is missing mods.toml file
+[22бер.2026 11:02:46.912] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[22бер.2026 11:02:49.853] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22бер.2026 11:02:49.908] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Alexander\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[22бер.2026 11:02:50.705] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:50.722] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 53 options available, 3 override(s) found
+[22бер.2026 11:02:50.728] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[22бер.2026 11:02:51.902] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) Iris(R) Xe Graphics, version=DriverVersion=32.0.101.7076]
+[22бер.2026 11:02:51.902] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce MX550, version=DriverVersion=32.0.15.8183]
+[22бер.2026 11:02:51.911] [main/WARN] [Embeddium-Workarounds/]: Embeddium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[22бер.2026 11:02:51.911] [main/WARN] [Embeddium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[22бер.2026 11:02:51.916] [main/INFO] [mixin/]: Remapping refMap embeddium-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.920] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.923] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.926] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.929] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.930] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.932] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.936] [main/INFO] [mixin/]: Remapping refMap sodiumCompatibility-oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.940] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.943] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.945] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:51.948] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using C:\Users\Alexander\Documents\projects\LesRaisinsArmor-1.20.1\LesRaisinsArmor-1.20.1\forge\build/createSrgToMcp/output.srg
+[22бер.2026 11:02:52.243] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/entity/RenderFlame (java.lang.ClassNotFoundException: mekanism.client.render.entity.RenderFlame)
+[22бер.2026 11:02:52.245] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/armor/MekaSuitArmor (java.lang.ClassNotFoundException: mekanism.client.render.armor.MekaSuitArmor)
+[22бер.2026 11:02:52.420] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.420] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.420] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.421] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.423] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.FontSetMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.423] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.424] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.remove_streams.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.424] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.remove_streams.HierarchicalModelMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.424] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.424] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.424] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[22бер.2026 11:02:52.662] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[22бер.2026 11:02:52.677] [main/FATAL] [mixin/]: Mixin apply failed mixins.oculus.json:texture.MixinAbstractTexture -> net.minecraft.client.renderer.texture.AbstractTexture: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow field f_117950_ was not located in the target class net.minecraft.client.renderer.texture.AbstractTexture. Using refmap oculus-mixins-refmap.json
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow field f_117950_ was not located in the target class net.minecraft.client.renderer.texture.AbstractTexture. Using refmap oculus-mixins-refmap.json
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachFields(MixinPreProcessorStandard.java:629) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:305) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:280) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:292) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[?:?]
+	at java.lang.Class.privateGetPublicMethods(Class.java:3427) ~[?:?]
+	at java.lang.Class.getMethods(Class.java:2019) ~[?:?]
+	at net.minecraftforge.fml.earlydisplay.DisplayWindow.updateModuleReads(DisplayWindow.java:616) ~[fmlearlydisplay-1.20.1-47.4.4.jar:1.0]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:71) ~[fmlloader-1.20.1-47.4.4.jar:1.0]
+	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:216) ~[fmlloader-1.20.1-47.4.4.jar:1.0]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.4.4.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]

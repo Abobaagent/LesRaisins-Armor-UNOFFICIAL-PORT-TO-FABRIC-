@@ -1,0 +1,39 @@
+plugins {
+    id 'fabric-loom' version "${fabric_loom_version}"
+}
+
+base {
+    archivesName = "${mod_id}-fabric-${minecraft_version}"
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+    modImplementation "software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}"
+}
+
+sourceSets {
+    main {
+        java.srcDir '../common/src/main/java'
+        resources.srcDir '../common/src/main/resources'
+        resources.srcDir '../common/src/generated/resources'
+    }
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+            minecraft_version: minecraft_version,
+            mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
+            mod_authors: mod_authors, mod_description: mod_description,
+            fabric_loader_version: fabric_loader_version, fabric_api_version: fabric_api_version,
+            geckolib_version: geckolib_version,
+    ]
+
+    inputs.properties replaceProperties
+
+    filesMatching(['fabric.mod.json']) {
+        expand replaceProperties + [project: project]
+    }
+}
